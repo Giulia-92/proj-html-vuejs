@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import HeaderContent from './HeaderContent.vue'
+import HeaderContent from './components/HeaderContent.vue'
 //import MainContent from './MainContent.vue'
 //import axios from 'axios'
 export default {
@@ -15,7 +15,7 @@ export default {
     //MainContent
   },data(){
     return{
-      myArray:dati,
+      myArray:[],
     }
   }
 }

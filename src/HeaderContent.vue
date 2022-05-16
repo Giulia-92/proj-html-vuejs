@@ -37,5 +37,10 @@ export default {
     
 </script>
 <style>
+h1{
+  font: size 20px;
+  color: black;
+  font-family:'Montserrat', sans-serif;
+}
 
 </style>

@@ -1,14 +1,12 @@
 <template>
 <section>
-  <div class="container">
-    <div class="row">
-      <div  class="col-6"> 
+<div>
+  
+</div>
 
-      </div>
-
-    </div>
-
-  </div>
+<div>
+ <img src="../assets/img/h-2-background-1.jpg" alt="">
+</div>
 </section>
     
 </template>

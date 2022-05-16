@@ -1,7 +1,15 @@
 <template>
-<div>
-    
-</div>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-6"> 
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
     
 </template>
 

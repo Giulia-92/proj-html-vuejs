@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    
+    <HeaderContent/>
   </div>
 </template>
 
 <script>
-//import HeaderContent from './HeaderContent.vue'
+import HeaderContent from './HeaderContent.vue'
 //import MainContent from './MainContent.vue'
 //import axios from 'axios'
 export default {
   name: 'App',
   components: {
-    //HeaderContent,
+    HeaderContent,
     //MainContent
   },data(){
     return{
-      
+      myArray:dati,
     }
   }
 }

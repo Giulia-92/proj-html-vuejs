@@ -26,7 +26,16 @@
     <img src="../assets/img/h-2-slider-img-15.png" alt="figura1">
     <img src="../assets/img/h-2-slider-img-16.png" alt="figura2">
     </div>
+    <img class="s" src="../assets/img/h-2-slider-img-17.png" alt="">
+    <img class="s1" src="../assets/img/h-2-slider-img-13.png" alt="">
+    <img class="s2" src="../assets/img/h-2-slider-img-12.png" alt="">
+    <img class="s3" src="../assets/img/h-2-slider-img-14.png" alt="">
+    <img class="s4" src="../assets/img/short-slider-rev-1-img-6.png" alt="">
   
+  <div class="icone">
+  <img src="../assets/img/svg-6.svg" alt="">
+  <img src="../assets/img/svg-7.svg" alt="">
+  </div>
   <section class="jumbo">
    <img src="../assets/img/h-2-port-img-1.jpg" class="img-fluid" alt="...">
    <img src="../assets/img/h-2-port-img-2.jpg" class="img-fluid" alt="...">
@@ -69,7 +78,7 @@ export default {
   color: black;
   font-family:'Montserrat', sans-serif;
   margin-left:25%;
-  margin-top:15%;
+  margin-top:8%;
   margin-right:50%;
 }
 p{
@@ -80,6 +89,13 @@ h2{
   color:black;
  font-family: 'Lobster', cursive;
 }
+.icone{
+  height:35px;
+  width:35px;
+  margin-left:97%;
+  position:absolute;
+  margin-top:60px;
+}
 .btn1{
   color: black;
   font-size:10px;
@@ -89,8 +105,12 @@ h2{
   font-family:'Montserrat', sans-serif;
   background-color:#FFFFFF;
 }
+.bt1:hover{
+  background-color:#F3D0C7;
+}
 
 .picture{
+  margin-right:100px;
   margin-top:-15%;
   display: flex;
   justify-content: flex-end;
@@ -98,7 +118,28 @@ h2{
 .img-fluid{
 width:550px;
 display:inline-flex;
-
+}
+.s{
+  height:129px;
+  width:97px;
+  margin-left:90%;
+  margin-top:-162px;
+}
+.s1{
+  margin-left:48%;
+  margin-top:-10%;
+}
+.s2{
+  margin-top:-30%;
+  margin-left:-6%;
+}
+.s3{
+  margin-top:-60%;
+  margin-left:85%;
+}
+.s4{
+  margin-top:-60%;
+  margin-left:50%;
 }
 
 </style>

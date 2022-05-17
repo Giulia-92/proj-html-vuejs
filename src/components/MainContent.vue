@@ -11,17 +11,24 @@
 <div>
  <img src="../assets/img/h-2-background-1.jpg" alt="">
  <div class="contact">
- <h3>Want to work with us?Send us a <h2>essage</h2></h3>
+ <h3>Want to work with us?Send us a <h2>message</h2></h3>
  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum enim tempore aut dolorem fugiat ex?</p>
  <button class="btn2">CONTACT</button>
 </div>
 </div>
-<section class="poster">
-  <img src="../assets/img/h-2-blog-img-1.jpg" class="img-thumbnail" alt="...">
-  <img src="../assets/img/h-2-blog-img-2.jpg" class="img-thumbnail" alt="...">
-  <img src="../assets/img/h-2-blog-img-3.jpg" class="img-thumbnail" alt="...">
+<section>
+<img src="../assets/img/h-2-blog-img-1.jpg" class="img" alt="...">
+
+<img src="../assets/img/h-2-blog-img-2.jpg" class="img" alt="...">
+
+<img src="../assets/img/h-2-blog-img-3.jpg" class="img" alt="...">
+
+</section>
+<section class="sponsor">
+  <img src="../assets/img/logo-sidearea-1.png" alt="">
 </section>
 </section>
+
     
 </template>
 
@@ -63,13 +70,21 @@ h1{
   width:20px;
   border: 1px solid black;
 }
-.poster{
+.img{
+  display:inline-flex;
   margin-top:20%;
+  width:418px;
+  margin-right:-8%;
+  margin-left:10%;
 }
-.img-thumbnail{
-  width: 500px;
-  height:500px;
-  margin-right:20px;
-  margin-left:20px;
+.sponsor{
+  padding-top:8%;
+  margin-top:15%;
+  background-color:#C0E1CF;;
 }
+.text{
+  font-size:15px;
+}
+
+
 </style>

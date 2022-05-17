@@ -86,7 +86,7 @@ p{
   font-size:13px;
 }
 h2{
-  color:black;
+ color:black;
  font-family: 'Lobster', cursive;
 }
 .icone{
@@ -105,7 +105,7 @@ h2{
   font-family:'Montserrat', sans-serif;
   background-color:#FFFFFF;
 }
-.bt1:hover{
+.btn1:hover{
   background-color:#F3D0C7;
 }
 

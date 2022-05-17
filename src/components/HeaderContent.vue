@@ -2,6 +2,21 @@
     
 <header>
   <img class="logo" src="../assets/img/logo-sidearea-1-1.png" alt="">
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Disabled</a>
+  </li>
+  <img  class="grid" src="../assets/img/svg-1.svg" alt="">
+</ul>
   <div class="top1">
     <h1>Devotion that never <h2>ends</h2></h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Adipisci, rem esse! Quaerat modi deserunt ullam id et soluta doloribus, qui corrupti impedit at, minima hic saepe.</p>
@@ -12,7 +27,7 @@
     <img src="../assets/img/h-2-slider-img-16.png" alt="figura2">
     </div>
   
-  <section>
+  <section class="jumbo">
    <img src="../assets/img/h-2-port-img-1.jpg" class="img-fluid" alt="...">
    <img src="../assets/img/h-2-port-img-2.jpg" class="img-fluid" alt="...">
    <img src="../assets/img/h-2-port-img-3.jpg" class="img-fluid" alt="...">
@@ -37,6 +52,18 @@ export default {
     
 </script>
 <style>
+.logo{
+  margin-top:30px;
+}
+.nav{
+  margin-top: -30px;
+}
+.grid{
+  height:15px;
+  width:20px;
+  margin-top:12px;
+  margin-right:20px;
+}
 .top1{
   font-size:20px;
   color: black;
@@ -69,7 +96,6 @@ h2{
   justify-content: flex-end;
 }
 .img-fluid{
-
 width:550px;
 display:inline-flex;
 

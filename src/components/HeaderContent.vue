@@ -3,22 +3,14 @@
 <header>
   <img class="logo" src="../assets/img/logo-sidearea-1-1.png" alt="">
 
-
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled">Disabled</a>
-  </li>
-  <img  class="grid" src="../assets/img/svg-1.svg" alt="">
-</ul>
+  <ul> 
+  <li class="menu">
+    <a href="#"><LinkContent v-for="(item) in links" :key="item" :link="item.link" /> </a>
+    </li>
+  </ul>
+  <div class="imenu">
+      <img src="../assets/img/svg-1.svg" alt="">
+   </div>
   <div class="top1">
     <h1>Devotion that never <h2>ends</h2></h1>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Adipisci, rem esse! Quaerat modi deserunt ullam id et soluta doloribus, qui corrupti impedit at, minima hic saepe.</p>
@@ -51,11 +43,34 @@
     
 </template>
 <script>
+import LinkContent from './LinkContent.vue'
 export default {
   name: 'HeaderContent',
+  components:{
+      LinkContent
+      },
   data(){
     return{
-    
+      links:[
+      {
+        "link":"Home"
+      },
+      {
+        "link":"Porfolio"
+      },
+      {
+        "link":"Blog"
+      },
+      {
+        "link":"Shop"
+      },
+      {
+        "link":"Pages"
+      },
+      {
+        "link":"Porfolio"
+      },
+      ]
     }
   }
 }
@@ -65,16 +80,28 @@ export default {
 <style>
 
 .logo{
-  margin-top:30px;
+  margin-top:-24px;
 }
-.nav{
-  margin-top: -30px;
+ul{
+  display:inline-flex;
+  justify-content: flex-end;
+  list-style-type:none;
+  color: black;
+  margin-left: 190px;
+  margin-right:-110px;
 }
 
-a:hover{
-  background-image: linear-gradient(transparent calc(100% - 6px), #f0cebe 0);
+a{
+  color: black;
+  text-decoration: none
 }
-  
+a:hover{
+  text-decoration: underline #F3d0c7 4px;
+}
+.imenu{
+  margin-left:90%;
+  margin-top:-42px;
+}
  
 
 .grid{

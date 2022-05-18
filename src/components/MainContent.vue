@@ -93,25 +93,26 @@ export default {
         "mail": "maree.qode@gmail.com",
         "address":"1040 Brussels,Belgium",
         "street":"Avenue d'Auderghem 10",
-        "link":"Home"
+        
     },
      {
         "number": "+44645321789",
         "mail": "maree.qode@gmail.com",
         "address":"1040 Brussels,Belgium",
         "street":"Avenue d'Auderghem 10",
+         
     },
      {
         "number": "+44645321789",
         "mail": "maree.qode@gmail.com",
         "address":"1040 Brussels,Belgium",
         "street":"Avenue d'Auderghem 10",
+         
     },
-     
-      ]
-      
-    }
+    ]
   }
+    
+}
  
 }
 </script>

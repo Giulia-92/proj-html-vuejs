@@ -1,8 +1,6 @@
 <template>
    <div> {{mail}} <br/>{{number}} <br/>{{street}} <br/>{{address}}
-   <div>
-       {{link}}
-   </div>
+  
        </div> 
        
 </template>
@@ -16,7 +14,7 @@ export default {
       address:String,
       number:Number,
       street:String,
-      link:String,
+     
   }
 }
 </script>

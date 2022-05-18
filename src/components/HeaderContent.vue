@@ -2,7 +2,9 @@
     
 <header>
   <img class="logo" src="../assets/img/logo-sidearea-1-1.png" alt="">
-  <ul class="nav justify-content-end">
+
+
+<ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>
   </li>
@@ -61,12 +63,20 @@ export default {
     
 </script>
 <style>
+
 .logo{
   margin-top:30px;
 }
 .nav{
   margin-top: -30px;
 }
+
+a:hover{
+  background-image: linear-gradient(transparent calc(100% - 6px), #f0cebe 0);
+}
+  
+ 
+
 .grid{
   height:15px;
   width:20px;
@@ -95,6 +105,7 @@ h2{
   margin-left:97%;
   position:absolute;
   margin-top:60px;
+  position: fixed;
 }
 .btn1{
   color: black;
@@ -106,7 +117,7 @@ h2{
   background-color:#FFFFFF;
 }
 .btn1:hover{
-  background-color:#F3D0C7;
+  background-color:#F3D0C7 ;
 }
 
 .picture{
@@ -116,7 +127,7 @@ h2{
   justify-content: flex-end;
 }
 .img-fluid{
-width:550px;
+width:635px;
 display:inline-flex;
 }
 .s{
@@ -131,15 +142,15 @@ display:inline-flex;
 }
 .s2{
   margin-top:-30%;
-  margin-left:-6%;
+  
 }
 .s3{
-  margin-top:-60%;
-  margin-left:85%;
+  margin-top:-55%;
+  margin-left:88%;
 }
 .s4{
-  margin-top:-60%;
-  margin-left:50%;
+  margin-top:-50%;
+  margin-left:55%;
 }
 
 </style>

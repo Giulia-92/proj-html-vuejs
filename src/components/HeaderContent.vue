@@ -25,6 +25,7 @@
     <img class="s2" src="../assets/img/h-2-slider-img-12.png" alt="">
     <img class="s3" src="../assets/img/h-2-slider-img-14.png" alt="">
     <img class="s4" src="../assets/img/short-slider-rev-1-img-6.png" alt="">
+    <img class="s5" src="../assets/img/short-slider-rev-1-img-6.png" alt="">
   
   <div class="icone">
   <img src="../assets/img/svg-6.svg" alt="">
@@ -178,6 +179,10 @@ display:inline-flex;
 .s4{
   margin-top:-50%;
   margin-left:55%;
+}
+.s5{
+  margin-top:-50%;
+  margin-left:90%;
 }
 
 </style>

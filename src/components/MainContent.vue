@@ -52,12 +52,12 @@
 <ul class="lista">
     <li ><img src="../assets/img/h-2-blog-img-1.jpg" class="img" alt="..."><h5> This way,loves:
    a detailed guide through new design</h5><h6> By Emily Fields</h6></li> 
-   <div class="age2">May ' 19</div>
+  
     <li><div class="date1">07</div><img src="../assets/img/h-2-blog-img-2.jpg" class="img" alt="..."><h5> I try to give people a different way of looking art</h5><h6>By Emily Fields</h6></li>
-    <div class="age1">May ' 19</div>
+    
     <li><div class="date2">07</div><img src="../assets/img/h-2-blog-img-3.jpg" class="img" alt="..."><h5> Introduce Richard Laperrière of those amazing features</h5><h6>By Emily Fields</h6></li>
   </ul>
- <div class="age">May ' 19</div>
+ 
 </section>
 <section class="sponsor">
   <img src="../assets/img/logo-sidearea-1.png" alt="">
@@ -238,7 +238,8 @@ h1{
   margin-right:3%;
 }
 .date{
-  margin-left:10%;
+  position: absolute;
+  margin-left:19%;
   margin-top:-10px;
   height:58px;
   width:56px;
@@ -273,41 +274,7 @@ h1{
   text-align:center;
   font-size:35px; 
 }
-.age{
-  position: absolute;
-  border: 1px solid #F3D0C7;
-  height:44px;
-  width:57px;
-  margin-left:190px;
-  margin-top:-25%;
-  font-size: 17px;
-  padding-top:5px;
-   font-family:'Lobster', cursive;
-}
-.age1{
-  position: absolute;
-  border: 1px solid #F3D0C7;
-  height:44px;
-  width:57px;
-  margin-left:32.7%;
-  margin-top:46px;
-  font-size:17px;
-  padding-top:5px;
-  font-family:'Lobster', cursive;
-  background-color:#F5D8CA;
-}
-.age2{
-   position: absolute;
-  border: 1px solid #F3D0C7;
-  height:44px;
-  width:57px;
-  margin-left:59%;
-  margin-top:47px;
-  font-size:15px;
-  padding-top:5px;
-  font-family:'Lobster', cursive;
-  background-color:#F5D8CA;
-}
+
 h5{
   font-family:'Montserrat', sans-serif;
   margin-left:10%;
